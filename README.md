@@ -41,7 +41,7 @@ user-authentication-form/        # Root folder for the project
 ├── style.css                    # CSS file for styling and animations
 ├── script.js                    # JavaScript file for logic to toggle the 'active' class for transitions
 └── assets/                      # Folder for media assets
-    └── demo.gif                 # Demo GIF showing the stacked-card UI in action
+    └── demo.gif                 # Demo GIF
 ```
 
 ## Getting Started
@@ -70,3 +70,4 @@ Feel free to custom this project:
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
