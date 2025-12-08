@@ -19,16 +19,20 @@ You can check out the User Authentication System in action [here](https://oussam
 
 ## Features
 
-*   **Sliding Form Transition:** smooth animation when switching between "Sign In" and "Sign Up" modes.
+*   **Sliding Form Transition:** Smooth animation when switching between "Sign In" and "Sign Up" modes.
 *   **Responsive Design:** Fully adaptable layout that works perfectly on desktops, tablets, and mobile devices.
 *   **Modern UI:** Clean, minimalist aesthetic with a soothing color palette.
-*   **Interactive Elements:** Hover effects on buttons and input fields for better feedback.
+*   **User Experience Enhancements:**
+    *   **Password Visibility Toggle:** Clickable eye icon to show/hide password text.
 
 ## Technologies Used
 
 *   **HTML5:** Semantic markup for structure.
 *   **CSS3:** Custom styling, flexbox layout, relative/absolute positioning, and transitions for animations.
-*   **JavaScript:** Light logic to handle class toggling for the sliding effect.
+*   **JavaScript:** :
+    *   Handling class toggling for the sliding effect.
+    *   Password visibility toggle.
+*   **Font Awesome:** Used for input field icons (eye).
 
 ## Project Structure
 
@@ -70,4 +74,3 @@ Feel free to custom this project:
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
