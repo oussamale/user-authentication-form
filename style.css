@@ -143,7 +143,6 @@ body.active {
   width: 100%;
   padding: 10px;
   padding-right: 45px;
-  /* Space for one icon */
   outline: none;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -166,10 +165,57 @@ body.active {
 }
 
 .input-group .toggle-password {
+  right: 35px;
   font-size: 0.9em;
 }
 
 
+.input-group .validation-icon {
+  right: 15px;
+  pointer-events: none;
+  display: none;
+}
+
+.input-group.success .validation-icon {
+  display: block;
+  color: #2ecc71;
+}
+
+.input-group.error .validation-icon {
+  display: block;
+  color: #ff4d4d;
+}
+
+/* Password strength meter */
+.password-strength {
+  display: flex;
+  height: 3px;
+  width: 100%;
+  margin-top: 5px;
+  background: #e0e0e0;
+  border-radius: 2px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.password-strength span {
+  display: block;
+  height: 100%;
+  width: 0;
+  transition: width 0.3s, background 0.3s;
+}
+
+.input-group input.error {
+  border-color: #ff4d4d;
+}
+
+.input-group input.success {
+  border-color: #2ecc71;
+}
+
+.input-group.error .error-text {
+  display: block;
+}
 
 .formBx .form form input[type="submit"] {
   background: #1e90ff;
