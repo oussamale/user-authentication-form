@@ -27,12 +27,14 @@
             <h3>Sign In</h3>
 
             <div class="input-group">
-              <input type="text" placeholder="Username" />
+              <input type="text" placeholder="Username" data-type="username" />
+              <i class="fa-solid fa-circle-check validation-icon"></i>
             </div>
 
             <div class="input-group">
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Password" data-type="password" />
               <i class="fa-solid fa-eye toggle-password"></i>
+              <i class="fa-solid fa-circle-check validation-icon"></i>
             </div>
 
             <input type="submit" value="Login" />
@@ -45,21 +47,26 @@
             <h3>Sign Up</h3>
 
             <div class="input-group">
-              <input type="text" placeholder="Username" />
+              <input type="text" placeholder="Username" data-type="username" />
+              <i class="fa-solid fa-circle-check validation-icon"></i>
             </div>
 
             <div class="input-group">
-              <input type="text" placeholder="Email Address" />
+              <input type="text" placeholder="Email Address" data-type="email" />
+              <i class="fa-solid fa-circle-check validation-icon"></i>
             </div>
 
             <div class="input-group">
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Password" data-type="password" />
               <i class="fa-solid fa-eye toggle-password"></i>
+              <i class="fa-solid fa-circle-check validation-icon"></i>
+              <div class="password-strength"><span></span></div>
             </div>
 
             <div class="input-group">
-              <input type="password" placeholder="Confirm Password" />
+              <input type="password" placeholder="Confirm Password" data-type="confirm-password" />
               <i class="fa-solid fa-eye toggle-password"></i>
+              <i class="fa-solid fa-circle-check validation-icon"></i>
             </div>
 
             <input type="submit" value="Register" />
