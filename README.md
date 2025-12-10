@@ -22,6 +22,10 @@ You can check out the User Authentication System in action [here](https://oussam
 *   **Sliding Form Transition:** Smooth animation when switching between "Sign In" and "Sign Up" modes.
 *   **Responsive Design:** Fully adaptable layout that works perfectly on desktops, tablets, and mobile devices.
 *   **Modern UI:** Clean, minimalist aesthetic with a soothing color palette.
+*   **Robust Form Validation:**
+    *   **Real-time Feedback:** Instant validation errors and success messages as you type.
+    *   **Visual Indicators:** Color changes (Red/Green) to indicate field status.
+    *   **Password Strength Meter:** Dynamic bar that indicates password complexity (Weak/Medium/Strong).
 *   **User Experience Enhancements:**
     *   **Password Visibility Toggle:** Clickable eye icon to show/hide password text.
 
@@ -31,8 +35,10 @@ You can check out the User Authentication System in action [here](https://oussam
 *   **CSS3:** Custom styling, flexbox layout, relative/absolute positioning, and transitions for animations.
 *   **JavaScript:** :
     *   Handling class toggling for the sliding effect.
-    *   Password visibility toggle.
-*   **Font Awesome:** Used for input field icons (eye).
+    *   Real-time form validation (Regex for email, length checks, etc.).
+    *   Password visibility toggle and strength calculation..
+    *   DOM manipulation for UI updates.
+*   **Font Awesome:** Used for input field icons (eye, validation status).
 
 ## Project Structure
 
