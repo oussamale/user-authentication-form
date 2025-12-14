@@ -11,7 +11,7 @@ A responsive, animated User Authentication interface featuring sliding transitio
 ## Demo Preview
 
 <div style="text-align: center;">
-  <img src="assets/demo.gif" alt="Demo Preview">
+  <img src="assets/demo_1.gif" alt="Demo Preview">
 </div>
 
 ## Live Demo
@@ -80,3 +80,4 @@ Feel free to custom this project:
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
